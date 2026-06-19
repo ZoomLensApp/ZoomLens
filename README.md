@@ -5,6 +5,11 @@
 It provides a floating magnifier lens or a separate zoom window that can help with reading small UI elements, checking details on screen, or focusing on a specific area during work or gaming.
 
 > ZoomLens 1.1 Beta is an early public build. Some limitations are expected.
+> ## Download
+
+Download the latest portable release:
+
+https://github.com/ZoomLensApp/ZoomLens/releases/latest
 
 ## Features
 
