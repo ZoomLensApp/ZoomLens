@@ -1,10 +1,38 @@
 # ZoomLens
 
+🇬🇧 English | 🇷🇺 Русский (coming soon)
+
 **ZoomLens** is a desktop screen magnifier for Windows.
 
 It provides a floating magnifier lens or a separate zoom window that can help with reading small UI elements, checking details on screen, or focusing on a specific area during work or gaming.
 
 > ZoomLens 1.1 Beta is an early public build. Some limitations are expected.
+
+## Download
+
+Latest portable release:
+
+https://github.com/ZoomLensApp/ZoomLens/releases/latest
+
+ZoomLens is distributed as a portable ZIP package. No installer is required for this beta version.
+
+## Screenshots
+
+### Main Window
+
+![Main Window](assets/screenshots/main.png)
+
+### Overlay Lens
+
+![Overlay Lens](assets/screenshots/circle.png)
+
+### Separate Window
+
+![Separate Window](assets/screenshots/navigate.png)
+
+### Settings
+
+![Settings](assets/screenshots/settings.png)
 
 ## Features
 
@@ -15,15 +43,7 @@ It provides a floating magnifier lens or a separate zoom window that can help wi
 * Global hotkeys
 * Compact control panel
 * English and Russian interface
-* Local configuration via `config.ini`
-
-## Download
-
-The latest build will be available on the **Releases** page:
-
-https://github.com/ZoomLensApp/ZoomLens/releases
-
-For the beta version, ZoomLens is distributed as a portable ZIP package.
+* Portable local configuration via `config.ini`
 
 ## How to use
 
@@ -37,18 +57,21 @@ For the beta version, ZoomLens is distributed as a portable ZIP package.
 
 ZoomLens works locally on your computer.
 
-It does not collect telemetry, record your screen, or send screen contents anywhere.
+It does not collect telemetry, record your screen, take screenshots, or send screen contents anywhere.
 
 More details: [PRIVACY.md](PRIVACY.md)
 
 ## Known limitations
 
+* This is a beta release.
+* The app is currently unsigned, so Windows SmartScreen may show a warning.
 * Some fullscreen games may hide or block overlays.
 * Borderless windowed mode usually works better than exclusive fullscreen.
-* Separate Window mode is best used with two monitors.
+* Separate Window mode works best with two monitors.
+* If Windows display scaling is changed while ZoomLens is running, restart ZoomLens.
+* Changing monitor topology while ZoomLens is running may require restarting the app.
 * Smooth interpolation is planned for a future engine version.
 * Image clarity depends on the source resolution and scaling.
-* The beta build may be unsigned, so Windows SmartScreen may show a warning.
 
 ## Games and anti-cheat note
 
@@ -73,11 +96,19 @@ When reporting a problem, it helps to include:
 * Steps to reproduce the issue
 * Diagnostics copied from the app, if available
 
+## Updates
+
+Telegram channel:
+
+https://t.me/ZoomLensApp
+
 ## Support the project
 
 ZoomLens is developed independently and remains free to use.
 
 If it helps you, you can support future development by starring the project on GitHub.
+
+Other support options are available inside the app.
 
 ## Author
 
