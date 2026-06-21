@@ -1,6 +1,6 @@
 # ZoomLens
 
-🇬🇧 English | 🇷🇺 Русский (coming soon)
+🇬🇧 English | 🇷🇺 [Русский](README_RU.md)
 
 **ZoomLens** is a desktop screen magnifier for Windows.
 
